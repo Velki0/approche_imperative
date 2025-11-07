@@ -1,4 +1,4 @@
-package fr.operateurs;
+package fr.operateurs.variable;
 
 public class DeclarationApp {
     public static void main(String[] args) {
