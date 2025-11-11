@@ -4,7 +4,7 @@ public class FirstLast6 {
 
     public static void main(String[] args) {
 
-        int[] tableau = {} ;
+        int[] tableau = {6, 3, 2} ;
 
         // 6 au début ou à la fin du tableau ?
         if (tableau.length > 0) {
