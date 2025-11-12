@@ -3,6 +3,7 @@ package fr.algorithme;
 public class FabriquerMur {
 
     public static void main(String[] args) {
+
         // Tests de vérification
         verifier(3, 1, 8, true);
         verifier(3, 1, 9, false);
@@ -17,6 +18,7 @@ public class FabriquerMur {
         verifier(3, 1, 7, true);
         verifier(1, 1, 7, false);
     }
+
     // Mettre au point la méthode fabriquerMur
     static boolean fabriquerMur(int nbSmall, int nbBig, int longueur) {
         while (longueur >= 5 && nbBig >= 1) {
@@ -29,6 +31,7 @@ public class FabriquerMur {
         }
         return longueur == 0;
     }
+
     private static void verifier(int nbSmall, int nbBig, int longueur, boolean b) {
         if (!fabriquerMur(nbSmall, nbBig, longueur) == b) {
             System.err.println("Test (" + nbSmall + ", " + nbBig + ", " + longueur + ") NON passant.");
