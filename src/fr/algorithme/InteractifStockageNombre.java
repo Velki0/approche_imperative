@@ -15,12 +15,9 @@ public class InteractifStockageNombre {
                 case 1:
                     int choixElementAAjouter = recupererChoixElement();
                     tableauEntiers = ajouterElementTableau(tableauEntiers, choixElementAAjouter);
-                    continue;
+                    break;
                 case 2:
                     afficherTableau(tableauEntiers);
-                    continue;
-                case 3:
-                    break;
             }
         } while (choixUtilisateur != 3);
     }
