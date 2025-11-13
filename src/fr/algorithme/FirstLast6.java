@@ -4,10 +4,10 @@ public class FirstLast6 {
 
     public static void main(String[] args) {
 
-        int[] tableau = {0, 6, 2};
+        int[] tableau = {6, 6, 2};
         // 6 au début ou à la fin du tableau ?
         if (tableau.length > 0) {
-            boolean is6atStartEnd = (tableau[0] == 6) || (tableau[tableau.length - 1] == 6) ? true : false;
+            boolean is6atStartEnd = ((tableau[0] == 6) || (tableau[tableau.length - 1] == 6));
             System.out.println(is6atStartEnd);
         } else {
             boolean is6atStartEnd = false;
